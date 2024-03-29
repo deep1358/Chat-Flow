@@ -1,0 +1,27 @@
+.settings-panel-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid #dddddd;
+    padding-left: 5px;
+}
+.settings-panel-header p {
+    flex: 1;
+    text-align: center;
+    font-size: 1.3em;
+    padding: 0;
+}
+.settings-panel-edit-message {
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 5px;
+}
+.settings-panel-edit-message p {
+    color: #97999a;
+}
+.settings-panel-edit-message textarea {
+    width: calc(100% - 20px);
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 10px;
+}

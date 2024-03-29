@@ -1,0 +1,23 @@
+.dndflow aside {
+    border-left: 1px solid #dddddd;
+    font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+    .dndflow aside {
+        width: 30%;
+        max-width: 300px;
+    }
+}
+.msg {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: #4a518e;
+    cursor: grab;
+    width: 120px;
+    font-weight: bolder;
+    text-align: center;
+    background: #fff;
+    border: 2px solid #4a518e;
+}
